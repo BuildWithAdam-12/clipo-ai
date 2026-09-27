@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Test fixtures and outputs
+tests/_testdata/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Local models / large files
+*.onnx
+!assets/face_detection_yunet_2023mar.onnx
+.freebuff/
